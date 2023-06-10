@@ -1,0 +1,4 @@
+server:
+  port: 8080
+plugins:
+  path: C:/goworkspace/springboot-plugins-master/plugins-app/plugins
