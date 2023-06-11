@@ -238,7 +238,8 @@ public class HotClassLoader extends URLClassLoader {
                      * 动态替换bean，这个地方从常用的角度来看，我们只需处理@Controller类，
                      * 给@AutoWired修饰的类字段做替换即可
                      */
-                    doAutowired(className, clz);
+                    //can use objectProvider instead
+                    //doAutowired(className, clz);
                 }
                 classNameList.add(className);
             }
