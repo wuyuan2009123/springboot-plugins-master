@@ -13,6 +13,7 @@
         <module>plugins-zhifubao</module>
         <module>plugins-app</module>
         <module>myself-test-plugin</module>
+        <module>myself-test-plugin2</module>
     </modules>
 
 

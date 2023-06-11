@@ -119,7 +119,6 @@ public class HotClassLoader extends URLClassLoader {
     private static File checkPluginDir() {
         File file; /** 首先先判断classpath下plugins是否存在，如果不存在，帮用户创建 */
         try{
-            System.out.println("PLUGINS_DIR:"+PLUGINS_DIR);
             file = ResourceUtils.getFile(PLUGINS_DIR);
         }catch (Exception e){
             String classesPath = ClassUtils.getDefaultClassLoader().getResource("").getPath();
